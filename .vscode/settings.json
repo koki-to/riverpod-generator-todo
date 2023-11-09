@@ -5,5 +5,12 @@
     },
     "files.watcherExclude": {
         "**/.fvm": true
-    }
+    },
+    "files.exclude": {
+        "**/*.freezed.dart": true,
+        "**/*.g.dart": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
 }
